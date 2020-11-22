@@ -1,0 +1,83 @@
+.grid-container {
+  display: grid;
+  gap: 10px 10px;
+  box-sizing: border-box;
+  margin: 50px 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(15, 40px);
+  grid-template-areas:
+    "purple-x purple-x purple-x purple-x green-x green-x blue-x blue-x green-y green-y green-y green-y"
+    "purple-x purple-x purple-x purple-x green-x green-x blue-x blue-x green-y green-y green-y green-y"
+    "purple-x purple-x purple-x purple-x green-x green-x blue-x blue-x green-y green-y green-y green-y"
+    "purple-x purple-x purple-x purple-x green-x green-x red-x red-x blue-y red-y red-y red-y"
+    "purple-x purple-x purple-x purple-x green-x green-x red-x red-x blue-y red-y red-y red-y"
+    "purple-x purple-x purple-x purple-x green-x green-x red-x red-x blue-y red-y red-y red-y"
+    "purple-x purple-x purple-x purple-x green-x green-x red-x red-x purple-y purple-y purple-y purple-y"
+    "green-z green-z blue-z blue-z green-x green-x red-x red-x purple-y purple-y purple-y purple-y"
+    "green-z green-z red-z red-z green-x green-x red-x red-x purple-y purple-y purple-y purple-y"
+    "green-z green-z red-z red-z green-x green-x red-x red-x purple-y purple-y purple-y purple-y"
+    "green-z green-z red-z red-z green-x green-x red-x red-x purple-y purple-y purple-y purple-y"
+    "green-z green-z red-z red-z purple-z purple-z purple-z purple-z purple-y purple-y purple-y purple-y"
+    "green-w green-w green-w green-w purple-z purple-z purple-z purple-z purple-y purple-y purple-y purple-y"
+    "green-w green-w green-w green-w purple-z purple-z purple-z purple-z purple-y purple-y purple-y purple-y"
+    "green-w green-w green-w green-w purple-z purple-z purple-z purple-z blue-w blue-w blue-w blue-w";
+}
+.grid-container .item {
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.purple-x {
+  grid-area: purple-x;
+}
+.purple-y {
+  grid-area: purple-y;
+}
+.purple-z {
+  grid-area: purple-z;
+}
+.green-x {
+  grid-area: green-x;
+}
+.green-y {
+  grid-area: green-y;
+}
+.green-z {
+  grid-area: green-z;
+}
+.green-w {
+  grid-area: green-w;
+}
+.blue-x {
+  grid-area: blue-x;
+}
+.blue-y {
+  grid-area: blue-y;
+}
+.blue-z {
+  grid-area: blue-z;
+}
+.blue-w {
+  grid-area: blue-w;
+}
+.red-x {
+  grid-area: red-x;
+}
+.red-y {
+  grid-area: red-y;
+}
+.red-z {
+  grid-area: red-z;
+}
+.purple {
+  background-color: #8d43b3;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: #58aae8;
+}
+.red {
+  background-color: #e74e33;
+}
+
